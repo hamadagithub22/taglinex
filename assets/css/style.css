@@ -271,13 +271,15 @@ footer p{
  
 }
 .about .box img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 140px;
     padding-right: 10px;
 }
 .about .box .box-text p{
     text-align: left;
+    
 }
+
 
  i{
     font-size: 40px;
@@ -490,14 +492,24 @@ span.title{
 @media(max-width:577px){
 
        #section3 .container{
-         padding: 0px 50px;
+         padding: 0px 30px;
      }
      .about{
-        padding: 0px 30px;
+        padding: 0px 10px;
+   
+      
+     
+     }
+     .about img{
+        display: none;
      }
      .text h3{
         font-size: 18px;
      }
+     .about .box-text span{
+      display: none;
+    }
+   
 }
 
 
